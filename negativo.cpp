@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
     int n1, n2, n3, n4, n5;
+    int qtd = 0;
     cin >> n1;
     cin >> n2;
     cin >> n3;
@@ -11,23 +12,23 @@ int main() {
     cin >> n5;
     
     if (n1 < 0) {
-        cout << n1 << " ";
+        qtd = qtd + 1;
     } 
 
     if (n2 < 0) {
-        cout << n2 << " ";
+        qtd = qtd + 1;
     }
     
     if (n3 < 0) { 
-        cout << n3 << " ";
+        qtd = qtd + 1;
     } 
 
     if (n4 < 0) {
-        cout << n4 << " ";
+        qtd = qtd + 1;
     } 
 
     if (n5 < 0) {
-        cout << n5 << " ";
+        qtd = qtd + 1;
     }
-    cout << endl;
+    cout << qtd << endl;
 }
